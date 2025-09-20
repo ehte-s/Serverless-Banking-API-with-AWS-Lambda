@@ -1,13 +1,4 @@
-┌─────────────┐    ┌──────────────┐    ┌─────────────────┐    ┌────────────┐
-│   Client    │────│ API Gateway  │────│ Lambda Functions│────│ DynamoDB   │
-│ (Web/Mobile)│    │              │    │                 │    │            │
-└─────────────┘    └──────────────┘    └─────────────────┘    └────────────┘
-│
-│
-┌─────────────┐
-│ CloudWatch  │
-│    Logs     │
-└─────────────┘
+Client (Web/Mobile) <────> API Gateway <────> Lambda Functions <────> DynamoDB ────> CloudWatch Logs
 
 
 ## Components:
